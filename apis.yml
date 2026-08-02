@@ -1,8 +1,31 @@
 aid: zibo
 name: Zibo
-description: Zibo is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zibo (operating as Azibo) is a financial services and property-management
+  platform for independent landlords and rental property owners. The company
+  offers a free-to-use platform that bundles rent collection, tenant screening,
+  online rental applications, lease agreements and eSignatures, document
+  storage, maintenance and messaging, banking, and rental-property accounting.
+  Azibo monetizes through interest on cash balances, card-transaction fees,
+  paid lease/eSignature and screening products, and renter subscriptions such
+  as credit-boost programs. The product is delivered as a SaaS web application
+  (app.azibo.com) that integrates third-party providers including Stripe,
+  Plaid, TransUnion, Latchel, and signNow; it does not publish a public
+  developer API, documentation, or SDKs. Zibo was surfaced as a portfolio
+  company of Canaan Partners.
 url: https://raw.githubusercontent.com/api-evangelist/zibo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/642f473d941777c50fefada7/674e2f29d44c51cf6436510f_azibo-open-graph.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Property Management
+- Real Estate
+- Rental
+- FinTech
+- Landlord Software
+- Rent Collection
+- Banking
+- Accounting
 apis: []
+common:
+- url: https://www.azibo.com
+  type: Website
+- url: https://www.azibo.com/pricing
+  type: Pricing
+- url: https://www.azibo.com/blog
+  type: Blog
+- url: https://www.azibo.com/product-road-map
+  type: Roadmap
+- url: https://azibo.zendesk.com/hc/en-us
+  type: Support
+- url: https://app.azibo.com/signup
+  type: SignUp
+- url: https://app.azibo.com/login
+  type: Login
+- url: https://www.azibo.com/terms-of-use
+  type: TermsOfService
+- url: https://www.azibo.com/privacy-policy
+  type: PrivacyPolicy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
