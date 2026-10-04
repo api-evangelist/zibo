@@ -49,7 +49,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Property Management
-- Real-Estate
+- Real Estate
 - Rentals
 - Fintech
 - Landlord Software
@@ -66,6 +66,7 @@ tags_raw:
 - Rent Collection
 - Banking
 - Accounting
+- Real-Estate
 apis: []
 common:
 - url: https://www.azibo.com
