@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/zibo/integrations
+- https://n8n.io/integrations/zibo/
+- https://composio.dev/toolkits/zibo
+- https://monid.ai/tools/zibo
+checked:
+- https://composio.dev/toolkits/zibo
+- https://monid.ai/tools/zibo
+- https://n8n.io/integrations/zibo/
+- https://zapier.com/apps/zibo/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
